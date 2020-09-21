@@ -1,4 +1,14 @@
+@font-face {
+  font-family: "ProximaNova"; 
+  src: url("./style/fonts/ProximaNova.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+} 
+
+  
 body {
   margin: 0;
   padding: 0;
+  background-color: #F7FAFB;
+  
 }

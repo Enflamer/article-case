@@ -1,5 +1,80 @@
 .navbar {
-    width: 200px;
-    height: 660px;
-    background-color: #062436;
+  font-family: "ProximaNova";
+  width: 250px;
+  height: 660px;
+  background-color: #062436;
+  position: sticky;
+  top: 0;
+
+  &__logo {
+    background: url("./svg/logo.svg") no-repeat center;
+    width: 115px;
+    height: 20px;
+    margin: 20px 0 70px 20px;
+  }
+
+  &-group {
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+
+    &-element {
+      text-transform: uppercase;
+      position: relative;
+      padding: 10px 10px 10px 47px;
+      margin-top: 10px;
+
+      &:before {
+        top: 0;
+        left: 0;
+        content: "";
+        position: absolute;
+      }
+
+      &__user {
+        &:before {
+          background: url("./svg/user.svg") left/contain no-repeat;
+          width: 20px;
+          height: 20px;
+          padding-top: 15px;
+          margin-left: 10px;
+        }
+      }
+
+      &__vps {
+        &:before {
+          background: url("./svg/vps.svg") left/contain no-repeat;
+          width: 20px;
+          height: 20px;
+          padding-top: 15px;
+          margin-left: 10px;
+        }
+      }
+
+      &__domen {
+        &:before {
+          background: url("./svg/domen.svg") left/contain no-repeat;
+          width: 20px;
+          height: 20px;
+          padding-top: 15px;
+          margin-left: 10px;
+        }
+      }
+
+      &__help {
+        &:before {
+          background: url("./svg/help.svg") left/contain no-repeat;
+          width: 20px;
+          height: 20px;
+          padding-top: 15px;
+          margin-left: 10px;
+        }
+      }
+
+      &:hover {
+        background: #15526a;
+      }
+    }
+  }
 }

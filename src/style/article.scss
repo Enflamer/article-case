@@ -1,7 +1,32 @@
 .article {
-    &__line {
-        //background-color: #F7FAFB;
-        
-        border: 1px solid #F7FAFB;
+  margin: 20px 0;
+
+  &__opened {
+    background: #f3fcff;
+  }
+  &__line {
+    border: 1px solid #f7fafb;
+  }
+  &-topic {
+    display: flex;
+    justify-content: space-between;
+
+    &__title {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 19px;
     }
+    &-rectangle {
+      background: url("./svg/rectangle-closed.svg") no-repeat;
+      width: 15px;
+      height: 15px;
+
+      &__opened {
+        background: url("./svg/rectangle-opened.svg") no-repeat;
+        width: 15px;
+        height: 15px;
+      }
+    }
+  }
 }

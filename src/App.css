@@ -1,3 +1,5 @@
-.app{
+.app-main {
     display: flex;
+    font-family: "ProximaNova"; 
+    font-style: normal;
 }

@@ -1,0 +1,22 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  font-size: 12px;
+  line-height: 15px;
+
+  &__info {
+  }
+
+  &__contacts {
+    
+  }
+
+  &__links {
+    text-decoration: none;
+    color: #3DBDF6;
+  }
+}
